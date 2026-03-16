@@ -3,3 +3,7 @@ from .backtest import backtest
 from .monte_carlo import monte_carlo_trades, monte_carlo_candles
 from .import_candles import import_candles
 from .ml import gather_ml_data, train_model, load_ml_data_csv, load_ml_model
+from .autoresearch import (
+    run_experiment, compute_score, log_result, load_results, print_leaderboard,
+    ExperimentConfig,
+)
